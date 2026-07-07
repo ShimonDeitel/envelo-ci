@@ -144,7 +144,7 @@ final class EnveloUITests: XCTestCase {
         XCTAssertTrue(sectionHeader.waitForExistence(timeout: 5))
         sectionHeader.tap()
 
-        let keyboardGone = expectation(for: NSPredicate(format: "exists == false"), evaluatedObject: app.keyboards.element, handler: nil)
+        let keyboardGone = expectation(for: NSPredicate(format: "exists == false"), evaluatedWith: app.keyboards.element, handler: nil)
         wait(for: [keyboardGone], timeout: 5)
     }
 
