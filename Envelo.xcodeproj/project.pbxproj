@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06637645A5AAEAA66ABDD0F1 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319EB34FB54673FCBEA73BF8 /* Sheets.swift */; };
+		0D5E9E0FA2C088D29DAF6851 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBD2E5A9D790205F77E850F /* PurchaseManager.swift */; };
+		0EC659898D9FFC877447F2E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6527DA6202DE64A490A65BC /* Assets.xcassets */; };
+		1720035A0EE0A08A1F30C815 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9B28DFACFC9D3B5DF306D3 /* PaywallView.swift */; };
+		4B0CF35E32BFD4A0120434D8 /* EnveloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1600AAA8C2A8D7AD7D67216C /* EnveloUITests.swift */; };
+		50E866A3138980283E0F83E4 /* Envelo.storekit in Resources */ = {isa = PBXBuildFile; fileRef = B3E3FF3973D7F46D49A04E0A /* Envelo.storekit */; };
+		894A16277B4D61A7BAD07B94 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080ECE5737F996AB8297DCD /* RootTabView.swift */; };
+		9944F17A74DEE84F4DBC616A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E7FB8EDCDD161C559CB6BC /* SettingsView.swift */; };
+		99961BD62363D9D2E0B612E8 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0C5C1F1FAA2734C5ED3BCC1 /* Store.swift */; };
+		BD202DFE6E74D74E17DA16A4 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27EBACE8E330ED920A729D6D /* App.swift */; };
+		C8B9F0A286BD8BFEBBFA8B5E /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850734DEB293D3BC96987F1 /* Models.swift */; };
+		DB032B48C390D15DC5DDAA09 /* EntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706C6CE87FB798D05572C234 /* EntryListView.swift */; };
+		DC3B15FB9E87C5B8B89CCCA2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38418F8C12A0C84594746BC /* Theme.swift */; };
+		FE3F5345DD6DCDC3CC15AECB /* EnveloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AEDDE6DC688C7B5CF155AE /* EnveloTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C32F532DA2E2B3BFCC83926 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CB60385EDB1BA8A8DB057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2D2921D9FBB4ACCE6C818E;
+			remoteInfo = Envelo;
+		};
+		3908DE65448D5CFD6A10E374 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14CB60385EDB1BA8A8DB057E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2D2921D9FBB4ACCE6C818E;
+			remoteInfo = Envelo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13E7FB8EDCDD161C559CB6BC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		1600AAA8C2A8D7AD7D67216C /* EnveloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnveloUITests.swift; sourceTree = "<group>"; };
+		2080ECE5737F996AB8297DCD /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		27EBACE8E330ED920A729D6D /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		319EB34FB54673FCBEA73BF8 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		3EBD2E5A9D790205F77E850F /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+		5936A5B1F358E9286765AB33 /* Envelo.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Envelo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706C6CE87FB798D05572C234 /* EntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListView.swift; sourceTree = "<group>"; };
+		7496157CEF06BD02E2E08A3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		86EC74248055C0656F852EA0 /* EnveloTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EnveloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6527DA6202DE64A490A65BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0C5C1F1FAA2734C5ED3BCC1 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B3E3FF3973D7F46D49A04E0A /* Envelo.storekit */ = {isa = PBXFileReference; path = Envelo.storekit; sourceTree = "<group>"; };
+		B850734DEB293D3BC96987F1 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		D3AEDDE6DC688C7B5CF155AE /* EnveloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnveloTests.swift; sourceTree = "<group>"; };
+		DD9B28DFACFC9D3B5DF306D3 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		E940617C3A58BBB0A0C59546 /* EnveloUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = EnveloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38418F8C12A0C84594746BC /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2F6DEC786567CFC2CDA6E58A = {
+			isa = PBXGroup;
+			children = (
+				400E41B9A158180D65B35451 /* Envelo */,
+				445D02392A0020ABD8C8D9C3 /* EnveloTests */,
+				F51C456EC2EFD012B8960226 /* EnveloUITests */,
+				B3E3FF3973D7F46D49A04E0A /* Envelo.storekit */,
+				86B2EFAB7E18E413A7A63EF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		400E41B9A158180D65B35451 /* Envelo */ = {
+			isa = PBXGroup;
+			children = (
+				27EBACE8E330ED920A729D6D /* App.swift */,
+				A6527DA6202DE64A490A65BC /* Assets.xcassets */,
+				706C6CE87FB798D05572C234 /* EntryListView.swift */,
+				7496157CEF06BD02E2E08A3C /* Info.plist */,
+				B850734DEB293D3BC96987F1 /* Models.swift */,
+				DD9B28DFACFC9D3B5DF306D3 /* PaywallView.swift */,
+				3EBD2E5A9D790205F77E850F /* PurchaseManager.swift */,
+				2080ECE5737F996AB8297DCD /* RootTabView.swift */,
+				13E7FB8EDCDD161C559CB6BC /* SettingsView.swift */,
+				319EB34FB54673FCBEA73BF8 /* Sheets.swift */,
+				B0C5C1F1FAA2734C5ED3BCC1 /* Store.swift */,
+				F38418F8C12A0C84594746BC /* Theme.swift */,
+			);
+			path = Envelo;
+			sourceTree = "<group>";
+		};
+		445D02392A0020ABD8C8D9C3 /* EnveloTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3AEDDE6DC688C7B5CF155AE /* EnveloTests.swift */,
+			);
+			path = EnveloTests;
+			sourceTree = "<group>";
+		};
+		86B2EFAB7E18E413A7A63EF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5936A5B1F358E9286765AB33 /* Envelo.app */,
+				86EC74248055C0656F852EA0 /* EnveloTests.xctest */,
+				E940617C3A58BBB0A0C59546 /* EnveloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F51C456EC2EFD012B8960226 /* EnveloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1600AAA8C2A8D7AD7D67216C /* EnveloUITests.swift */,
+			);
+			path = EnveloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		336BC415F26FE0C540F0E33B /* EnveloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44CF45697ADDBD679A697BFC /* Build configuration list for PBXNativeTarget "EnveloUITests" */;
+			buildPhases = (
+				D17F2D1B2EDFAFF1DB58AF1A /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				711453FABEC519F7D82218CC /* PBXTargetDependency */,
+			);
+			name = EnveloUITests;
+			packageProductDependencies = (
+			);
+			productName = EnveloUITests;
+			productReference = E940617C3A58BBB0A0C59546 /* EnveloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3C2D2921D9FBB4ACCE6C818E /* Envelo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C3EC67C6BF4052C21DFE161 /* Build configuration list for PBXNativeTarget "Envelo" */;
+			buildPhases = (
+				76AB11E7B6D0B7FB03D46401 /* Sources */,
+				C2E5D29C0B72E79D64FF7C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Envelo;
+			packageProductDependencies = (
+			);
+			productName = Envelo;
+			productReference = 5936A5B1F358E9286765AB33 /* Envelo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFAE2609E88E67EAA929ED96 /* EnveloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC63550FA4A6C4B1FE106EE1 /* Build configuration list for PBXNativeTarget "EnveloTests" */;
+			buildPhases = (
+				87D0E0CC188727F8F89240BF /* Sources */,
+				FC168B847EB61EAF226E979B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8336ECE6B76CC9163CA1DB /* PBXTargetDependency */,
+			);
+			name = EnveloTests;
+			packageProductDependencies = (
+			);
+			productName = EnveloTests;
+			productReference = 86EC74248055C0656F852EA0 /* EnveloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CB60385EDB1BA8A8DB057E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					336BC415F26FE0C540F0E33B = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3C2D2921D9FBB4ACCE6C818E;
+					};
+					3C2D2921D9FBB4ACCE6C818E = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					AFAE2609E88E67EAA929ED96 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C7AF03F9E9292480E9CB44A4 /* Build configuration list for PBXProject "Envelo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2F6DEC786567CFC2CDA6E58A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 86B2EFAB7E18E413A7A63EF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C2D2921D9FBB4ACCE6C818E /* Envelo */,
+				AFAE2609E88E67EAA929ED96 /* EnveloTests */,
+				336BC415F26FE0C540F0E33B /* EnveloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E5D29C0B72E79D64FF7C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC659898D9FFC877447F2E7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC168B847EB61EAF226E979B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E866A3138980283E0F83E4 /* Envelo.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76AB11E7B6D0B7FB03D46401 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD202DFE6E74D74E17DA16A4 /* App.swift in Sources */,
+				DB032B48C390D15DC5DDAA09 /* EntryListView.swift in Sources */,
+				C8B9F0A286BD8BFEBBFA8B5E /* Models.swift in Sources */,
+				1720035A0EE0A08A1F30C815 /* PaywallView.swift in Sources */,
+				0D5E9E0FA2C088D29DAF6851 /* PurchaseManager.swift in Sources */,
+				894A16277B4D61A7BAD07B94 /* RootTabView.swift in Sources */,
+				9944F17A74DEE84F4DBC616A /* SettingsView.swift in Sources */,
+				06637645A5AAEAA66ABDD0F1 /* Sheets.swift in Sources */,
+				99961BD62363D9D2E0B612E8 /* Store.swift in Sources */,
+				DC3B15FB9E87C5B8B89CCCA2 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87D0E0CC188727F8F89240BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE3F5345DD6DCDC3CC15AECB /* EnveloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D17F2D1B2EDFAFF1DB58AF1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B0CF35E32BFD4A0120434D8 /* EnveloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D8336ECE6B76CC9163CA1DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2D2921D9FBB4ACCE6C818E /* Envelo */;
+			targetProxy = 3908DE65448D5CFD6A10E374 /* PBXContainerItemProxy */;
+		};
+		711453FABEC519F7D82218CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C2D2921D9FBB4ACCE6C818E /* Envelo */;
+			targetProxy = 2C32F532DA2E2B3BFCC83926 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		070D318D3A9A0E36331B302D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Envelo;
+			};
+			name = Debug;
+		};
+		1E6FF858B0796F157E80916B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Envelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3776FCE95F9C29DE88645E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Envelo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4D94B64794A623B1CF8E2C20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Envelo.app/Envelo";
+			};
+			name = Release;
+		};
+		AC652D38ED2BAEE61C288E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Envelo.app/Envelo";
+			};
+			name = Debug;
+		};
+		B1CFEA2E4C555E9D882A8A01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.envelo.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Envelo;
+			};
+			name = Release;
+		};
+		B2B4948E42FE6A22214F0F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F84CF947A2695611FE525133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44CF45697ADDBD679A697BFC /* Build configuration list for PBXNativeTarget "EnveloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				070D318D3A9A0E36331B302D /* Debug */,
+				B1CFEA2E4C555E9D882A8A01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C3EC67C6BF4052C21DFE161 /* Build configuration list for PBXNativeTarget "Envelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6FF858B0796F157E80916B /* Debug */,
+				3776FCE95F9C29DE88645E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C7AF03F9E9292480E9CB44A4 /* Build configuration list for PBXProject "Envelo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2B4948E42FE6A22214F0F1C /* Debug */,
+				F84CF947A2695611FE525133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EC63550FA4A6C4B1FE106EE1 /* Build configuration list for PBXNativeTarget "EnveloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC652D38ED2BAEE61C288E75 /* Debug */,
+				4D94B64794A623B1CF8E2C20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CB60385EDB1BA8A8DB057E /* Project object */;
+}
